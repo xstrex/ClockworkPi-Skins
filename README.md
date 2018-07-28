@@ -1,5 +1,4 @@
 # ClockworkPi-Skins
-
 Skins for the ClockWorkPi Launcher, ClockWorkPi can be found here: https://www.clockworkpi.com/
 The Launcher is the UI on the console. All skins currently require ssh access to the Pi, which is beyond the scope of this page. Please see [this](https://forum.clockworkpi.com/t/how-to-transfer-files-with-tinycloud-through-ssh/833) forum post for instructions on how to ssh into your console.
 
@@ -8,6 +7,21 @@ Installation of any skin found on this page, should be pretty easy, if git is in
 ### Install Git
 ```
 sudo apt-get install git
+```
+
+### Switching Skins
+At the time of this writing, this is still a manual process, hopefully the devs fix this soon!
+As an example, I'll show the steps the switch the skin from default, to blue (assuming blue is already installed).
+Ssh into your console, and type the following:
+```
+vi /home/cpi/apps/launcher/sys.py/config.py
+```
+replace SKIN="detault" with SKIN="blue"
+(save and quit the file)
+
+reboot the console
+```
+sudo reboot
 ```
 
 # Blue
