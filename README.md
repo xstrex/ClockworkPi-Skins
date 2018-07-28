@@ -12,7 +12,7 @@ sudo apt-get install git
 ### Switching Skins
 At the time of this writing, this is still a manual process, hopefully the devs fix this soon!
 As an example, I'll show the steps the switch the skin from default, to blue (assuming blue is already installed).
-Ssh into your console, and type the following:
+Ssh into your console, and make the following changes (one of the other, not both)
 
 #### Manually (with vi)
 ```
@@ -26,7 +26,7 @@ The quick way, if your impatient, or not a vi fan:
 ```
 sed -i 's/SKIN="default"/SKIN="blue"/' /home/cpi/apps/launcher/sys.py/config.py
 ```
-#### Reboot
+### Reboot
 reboot the console
 ```
 sudo reboot
