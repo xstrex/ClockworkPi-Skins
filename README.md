@@ -14,7 +14,7 @@ sudo apt-get install git
 This is my first skin, and was more of a proof-of-concept, to see if the launcher could be skinned. To install this skin, ssh into you console, and type the following:
 ```
 cd /home/cpi/apps/launcher/skin
-git clone https://github.com/xstrex/ClockworkPi-Skins/blue .
+git clone https://github.com/xstrex/CWP-Skin-Blue.git .
 ```
 
 
