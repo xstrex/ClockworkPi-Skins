@@ -40,8 +40,9 @@ This is my first skin, and was more of a proof-of-concept, to see if the launche
 
 To install this skin, ssh into you console, and type the following:
 ```
-cd /home/cpi/apps/launcher/skin
-git clone https://github.com/xstrex/CWP-Skin-Blue.git .
+cd ~/
+git clone https://github.com/xstrex/CWP-Skin-Blue.git
+mv CWP-Skin-Blue/blue /home/cpi/apps/launcher/skin/
 ```
 
 
