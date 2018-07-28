@@ -13,12 +13,20 @@ sudo apt-get install git
 At the time of this writing, this is still a manual process, hopefully the devs fix this soon!
 As an example, I'll show the steps the switch the skin from default, to blue (assuming blue is already installed).
 Ssh into your console, and type the following:
+
+#### Manually (with vi)
 ```
 vi /home/cpi/apps/launcher/sys.py/config.py
 ```
 replace SKIN="detault" with SKIN="blue"
 (save and quit the file)
 
+#### Automagically (with sed)
+The quick way, if your impatient, or not a vi fan:
+```
+sed -i 's/SKIN="default"/SKIN="blue"/' /home/cpi/apps/launcher/sys.py/config.py
+```
+#### Reboot
 reboot the console
 ```
 sudo reboot
