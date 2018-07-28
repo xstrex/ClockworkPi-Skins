@@ -12,8 +12,8 @@ sudo apt-get install git
 
 # Blue
 This is my first skin, and was more of a proof-of-concept, to see if the launcher could be skinned. 
-![](https://raw.githubusercontent.com/xstrex/ClockworkPi-Skins/master/images/blue1.jpg =150x100)
-![](https://raw.githubusercontent.com/xstrex/ClockworkPi-Skins/master/images/blue2.jpg =150x100)
+<img src="images/blue1.jpg" width="240px"/>
+<img src="images/blue2.jpg" width="240px"/>
 
 
 To install this skin, ssh into you console, and type the following:
