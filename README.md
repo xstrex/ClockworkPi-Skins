@@ -82,8 +82,11 @@ ln -s /home/cpi/CWP-Skin-Blue/blue/ /home/cpi/apps/launcher/skin/
 
 # Redrum
 Second Skin - Took the time to colorize every single image, should look more complete. 
-_images coming soon_
-
+<img src="images/redrum1.png" width="240px"/>
+<img src="images/redrum2.png" width="240px"/>
+<img src="images/redrum3.png" width="240px"/>
+<img src="images/redrum4.png" width="240px"/>
+<img src="images/redrum5.png" width="240px"/>
 
 To install this skin, ssh into your console, and type the following:
 ```
