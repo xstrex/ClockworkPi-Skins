@@ -4,6 +4,8 @@ The Launcher is the UI on the console. All skins currently require ssh access to
 
 Installation of any skin found on this page, should be pretty easy, if git is installed. 
 
+_please note, I changed the way skins are installed below. Instead oc moving the skin directory to the skins directory, I decided to link it; this should help if/when a skin gets updated._
+
 ### Install Git
 ```
 sudo apt-get install git
@@ -42,7 +44,7 @@ To install this skin, ssh into your console, and type the following:
 ```
 cd ~/
 git clone https://github.com/xstrex/CWP-Skin-Blue.git
-mv CWP-Skin-Blue/blue /home/cpi/apps/launcher/skin/
+ln -s /home/cpi/CWP-Skin-Blue/blue/ /home/cpi/apps/launcher/skin/
 ```
 
 # Redrum
@@ -54,7 +56,7 @@ To install this skin, ssh into your console, and type the following:
 ```
 cd ~/
 git clone https://github.com/xstrex/CWP-Skin-Redrum.git
-mv CWP-Skin-Redrum/redrum /home/cpi/apps/launcher/skin/
+ln -s /home/cpi/CWP-Skin-Redrum/redrum/ /home/cpi/apps/launcher/skin/
 ```
 
 _profit!_
