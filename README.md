@@ -28,6 +28,39 @@ The quick way, if your impatient, or not a vi fan:
 ```
 sed -i 's/SKIN="default"/SKIN="blue"/' /home/cpi/apps/launcher/sys.py/config.py
 ```
+
+### Alternative Method to Switching Skins
+This was brought up by [hpcodecraft](https://forum.clockworkpi.com/t/skin-development/931/18) in the forums; I think I like it a little better, feels cleaner to me. Instead of editing the config.py file (above; which gets overwritten after each launcher update), we simply create symbolic links to different directories. At the end of the day, what ever link in pointing to "default" gets used as the skin. 
+
+To set this up, ssh into your console and run the following:
+```
+cd /home/cpi/apps/launcher/skin
+mv default original
+```
+install some skins below (in this example, I'll switch to the Redrum skin)
+```
+cd /home/cpi/apps/launcher/skin
+ln -s /home/cpi/CWP-Skin-Redrum/redrum/ /home/cpi/apps/launcher/skin/
+ln -s redrum default
+```
+
+So now, because the link "default" is pointing to "redrum", the Redrum skin will be used. To verify, "ls -lh /home/cpi/apps/launcher/skin" should look like the following:
+```
+cpi@clockworkpi:~/apps/launcher/skin$ ls -hl
+total 4.0K
+lrwxrwxrwx 1 cpi cpi   29 Aug  3 09:22 blue -> /home/cpi/CWP-Skin-Blue/blue/
+lrwxrwxrwx 1 cpi cpi    6 Aug  3 09:23 default -> redrum
+drwxr-xr-x 5 cpi cpi 4.0K Jun  1 03:32 original
+lrwxrwxrwx 1 cpi cpi   33 Aug  3 09:15 redrum -> /home/cpi/CWP-Skin-Redrum/redrum/
+```
+
+To switch back to the default skin, simply run the following:
+```
+cd /home/cpi/apps/launcher/skin
+rm default
+ln -s original default
+```
+
 ### Reboot
 reboot the console
 ```
