@@ -4,7 +4,7 @@ The Launcher is the UI on the console. All skins currently require ssh access to
 
 Installation of any skin found on this page, should be pretty easy, if git is installed. 
 
-_please note, I changed the way skins are installed below. Instead oc moving the skin directory to the skins directory, I decided to link it; this should help if/when a skin gets updated._
+_please note, I changed the way skins are installed below. Instead of moving the skin, to the skins directory, I decided to link it; this should help if/when a skin gets updated._
 
 ### Install Git
 ```
