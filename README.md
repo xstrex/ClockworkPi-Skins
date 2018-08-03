@@ -85,9 +85,11 @@ Second Skin - Took the time to colorize every single image, should look more com
 
 <img src="images/redrum1.png" width="240px"/>
 <img src="images/redrum2.png" width="240px"/>
+<img src="images/redrum5.png" width="240px"/>
+
 <img src="images/redrum3.png" width="240px"/>
 <img src="images/redrum4.png" width="240px"/>
-<img src="images/redrum5.png" width="240px"/>
+
 
 To install this skin, ssh into your console, and type the following:
 ```
