@@ -82,6 +82,7 @@ ln -s /home/cpi/CWP-Skin-Blue/blue/ /home/cpi/apps/launcher/skin/
 
 # Redrum
 Second Skin - Took the time to colorize every single image, should look more complete. 
+
 <img src="images/redrum1.png" width="240px"/>
 <img src="images/redrum2.png" width="240px"/>
 <img src="images/redrum3.png" width="240px"/>
