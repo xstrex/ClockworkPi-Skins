@@ -38,12 +38,23 @@ This is my first skin, and was more of a proof-of-concept, to see if the launche
 <img src="images/blue2.jpg" width="240px"/>
 
 
-To install this skin, ssh into you console, and type the following:
+To install this skin, ssh into your console, and type the following:
 ```
 cd ~/
 git clone https://github.com/xstrex/CWP-Skin-Blue.git
 mv CWP-Skin-Blue/blue /home/cpi/apps/launcher/skin/
 ```
 
+# Redrum
+Second Skin - Took the time to colorize every single image, should look more complete. 
+_images coming soon_
+
+
+To install this skin, ssh into your console, and type the following:
+```
+cd ~/
+git clone https://github.com/xstrex/CWP-Skin-Redrum.git
+mv CWP-Skin-Redrum/redrum /home/cpi/apps/launcher/skin/
+```
 
 _profit!_
